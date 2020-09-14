@@ -3225,7 +3225,6 @@ small {
     transition: opacity 1s linear;
 }
 
-
 .picture.loaded {
     opacity: 1;
 }
