@@ -1242,10 +1242,6 @@ hr:not([size]) {
     height: 1px;
 }
 
-html {
-    background-color: #56baed;
-}
-
 input[type=button], input[type=reset], input[type=submit] {
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -2712,7 +2708,7 @@ summary {
 }
 
 #formContent {
-    background: #aaa;
+    background-color: rgba(256, 256, 256, .9);
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 30px 60px 0 rgba(0, 0, 0, .3);
     max-width: 450px;
@@ -2784,7 +2780,7 @@ summary {
 }
 
 .modal-window {
-    background-color: rgba(255, 255, 255, 0.25);
+    /*background-color: rgba(255, 255, 255, 0.25);*/
     bottom: 0;
     left: 0;
     opacity: 0;
@@ -3016,12 +3012,12 @@ summary {
 }
 
 .blackOutline {
-    border: 2px solid #555;
+    border: 2px solid #000;
     color: #555;
 }
 
 .blackOutline:hover {
-    background-color: #555;
+    background-color: #000;
     color: #fff;
 }
 
@@ -3226,4 +3222,31 @@ small {
 
 .picture.loaded {
     opacity: 1;
+}
+
+.input {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.toRight {
+    right: 0;
+    position: fixed;
+}
+
+.toLeft {
+    left: 0;
+    position: fixed;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.centerBox {
+    margin-left: auto;
+    margin-right: auto;
 }
